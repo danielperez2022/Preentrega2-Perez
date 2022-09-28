@@ -1,0 +1,36 @@
+header{
+    height: 10vh;
+    background-color: red;
+}
+main{
+    height: 80vh;     
+}
+footer {
+    height: 10vh;
+}
+div #vinilo{       
+    width: 500px;    
+    height: 500px;  
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    transform: translate(400px, 80px);
+    background-image: url("../assets/images/2.jpg");
+    background-size: 40%;
+}
+div #vinilo:hover{
+   transform: rotate(180deg);
+   transition: 5s transform linear;
+}
+
+@media (min-width: 576px) { }
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) { }
+
+@media (min-width: 1400px) { }
