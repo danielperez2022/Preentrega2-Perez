@@ -1,10 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
 header{
     height: 10vh;
-    background-color: red;
+    background-color:white;
+}
+#navBarh{
+    display: flex;
+    list-style: none;  
+}
+#navbarNavAltMarkup{
+    font-size: 14px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.nav-link{
+    padding: 2px 2px;
+    border-radius: 3px;
+}
+.nav-link:hover{
+    background-color:rgb(79, 78, 95);
+    transition: 0.5s;
 }
 main{
+    display: flex;
     height: 80vh;     
 }
+main nav{
+    width: 60vw;
+    background-color:white;
+    background-image: url(../assets/images/vinilo.gif);
+    background-size:cover;
+}
+main aside{
+    width: 60vw;
+    background-color: white;
+    flex-basis: 20vw;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    background-image: url(../assets/images/morningGlory.jpg);
+    background-size:cover;
+}
+#formImagen{
+    background-image: url(../assets/images/navbar6.jpg);   
+    background-size: cover;
+}
+
 footer {
     height: 10vh;
 }
@@ -19,18 +67,79 @@ div #vinilo{
     transform: translate(400px, 80px);
     background-image: url("../assets/images/2.jpg");
     background-size: 40%;
+    background-size: contain;   
 }
 div #vinilo:hover{
    transform: rotate(180deg);
    transition: 5s transform linear;
 }
+#dataPer{
+    color:var(--blue-dark);
+    font-size:  1rem;
+    display: inline-block;
+    position: relative;
+}
+#grillaInt{
+    position:relative;
+    top: 30%;
+    left: 16%;
+    width: 68vw;
+    height: 100vh;
+    align-items: center;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 5fr 5fr;
+    grid-template-columns: 6fr 6fr;
+    grid-template-areas:"int1 int2"
+                        "int3 int4";                    
+}
+#grillaDisc{
+    position:relative;
+    top: 30%;
+    left: 16%;
+    width: 68vw;
+    height: 100vh;
+    align-items: center;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 5fr 5fr;
+    grid-template-columns: 6fr 6fr;
+    grid-template-areas:"int1 int2"
+                        "int3 int4";                    
+}
+.prf{
+    background-image: url("../assets/images/AGUA.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
-@media (min-width: 576px) { }
+@media screen and (min-width: 576px) {
+    body{
+        background-color: white;
+    }
+ }
 
-@media (min-width: 768px) { }
+@media screen and (min-width: 768px) { 
+    body{
+        background-color: white;
+    }
+}
 
-@media (min-width: 992px) { }
+@media screen and (min-width: 992px) {
+    body{
+        background-color: white;
+    }
+ }
 
-@media (min-width: 1200px) { }
+@media screen and (min-width: 1200px) { 
+    body{
+        background-color: white;
+    }
+}
 
-@media (min-width: 1400px) { }
+@media screen and (min-width: 1400px) {
+    body{
+        background-color: white;
+    }
+ }
+
